@@ -71,6 +71,19 @@ h1 {
     width: 460px;
 }
 
+.img-mini {
+	display: inline-block;
+	font-size: 0px;
+}
+
+.img-mini>img {
+	margin-right: 20px;
+}
+
+.img-mini>img:last-child {
+	margin-right: 0px;
+}
+
 .info-container {
     float: right;
     width: 400px;
@@ -144,15 +157,26 @@ h1 {
 }
 
 .item-wrapper {
-	width: 700px;
 	float: right;
+	width: 700px;
 	margin-bottom: 45px; 
+}
+
+.item-container {
+	font-size: 0px;
 }
 
 .item {
 	width: 220px;
-	float: left;
+	display: inline-block;
+	font-size: 14px;
 	margin-right: 20px;
+	margin-bottom: 20px;
+	vertical-align: top;
+}
+
+.item:nth-child(3) {
+	margin-right: 0px;
 }
 
 .item:last-child {
