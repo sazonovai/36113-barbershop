@@ -1,19 +1,19 @@
 @font-face {
     font-family: "PTSansNarrowRegular";
-    src: url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.eot");
-    src: url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.woff") format("woff"),
-    url("../fonts/PTSansNarrowRegular/PTSansNarrowRegular.ttf") format("truetype");
+    src: url("../fonts/PTSansNarrowRegular.eot");
+    src: url("../fonts/PTSansNarrowRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansNarrowRegular.woff") format("woff"),
+    url("../fonts/PTSansNarrowRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "PTSansNarrowBold";
-    src: url("../fonts/PTSansNarrowBold/PTSansNarrowBold.eot");
-    src: url("../fonts/PTSansNarrowBold/PTSansNarrowBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/PTSansNarrowBold/PTSansNarrowBold.woff") format("woff"),
-    url("../fonts/PTSansNarrowBold/PTSansNarrowBold.ttf") format("truetype");
+    src: url("../fonts/PTSansNarrowBold.eot");
+    src: url("../fonts/PTSansNarrowBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansNarrowBold.woff") format("woff"),
+    url("../fonts/PTSansNarrowBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -158,8 +158,7 @@ h1 {
 
 .item-wrapper {
 	float: right;
-	width: 700px;
-	margin-bottom: 45px; 
+	width: 700px; 
 }
 
 .item-container {
@@ -175,11 +174,7 @@ h1 {
 	vertical-align: top;
 }
 
-.item:nth-child(3) {
-	margin-right: 0px;
-}
-
-.item:last-child {
+.item:nth-child(3n) {
 	margin-right: 0px;
 }
 
